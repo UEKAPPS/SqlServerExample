@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_margin="8dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phoneEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addressEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/addUpdateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
